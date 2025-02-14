@@ -1,0 +1,20 @@
+[project]
+name = "proyecto1"
+version = "0.1.0"
+description = "primer proyecto"
+authors = [
+    {name = "Cindy Rozo, Diana Jimenez, Lorena Chaparro"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+poetry = "tqdm"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
