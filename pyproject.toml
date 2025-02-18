@@ -1,21 +1,19 @@
 [project]
-name = "proyecto1"
+name = "proyecto_1"
 version = "0.1.0"
-description = "primer proyecto"
+description = "Proyecto 1 Cindy R, Diana J y Lorena C"
 authors = [
-    {name = "Cindy Rozo, Diana Jimenez, Lorena Chaparro"}
+    {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
 ]
 
-[tool.poetry]
-
-[tool.poetry.group.dev.dependencies]
-poetry = "tqdm"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
